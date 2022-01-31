@@ -1,0 +1,42 @@
+.alert-box{
+    padding: 1rem;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    border-radius:1rem;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.alert-primary{
+    /* background-color:rgb(230, 180, 180) ;
+    color:rgb(200, 0, 0) ; */
+    /* background-color:rgb(200, 60, 60);
+    color: beige; */
+    background-color: rgb(247, 174, 174);
+    color: rgb(215, 0, 0);
+}
+
+.alert-secondary{
+    background-color: rgb(180, 178, 178);
+    color: rgb(15, 15, 15);
+}
+
+.alert-success{
+    background-color: rgb(138, 185, 138);
+    color: rgb(4, 105, 4);
+}
+.alert-warning{
+    background-color: rgb(255, 196, 147);
+    color: rgb(250, 114, 3);
+}
+
+.alert-close{
+    background-color: transparent;
+    font-size: large;
+    color: rgb(2, 1, 1);
+    border: 0px;
+    margin-left: 50px;
+    cursor: pointer;
+}
