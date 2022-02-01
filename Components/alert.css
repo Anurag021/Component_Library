@@ -1,0 +1,57 @@
+:root{
+    --primary-alert-color: rgb(247, 174, 174);
+    --primary-alert-text-color: rgb(224, 43, 11);
+    --secondary-alert-color: rgb(180, 178, 178);
+    --secondary-alert-text-color: rgb(15, 15, 15);
+    --success-alert-color: rgb(138, 185, 138);
+    --success-alert-text-color: rgb(4, 105, 4);
+    --warning-alert-color: rgb(255, 196, 147);
+    --warning-alert-text-color: rgb(250, 114, 3);
+    --alert-border-color: black;
+  }
+  
+  .components-alert-display{
+
+    border: 0.1rem solid var(--alert-border-color);
+    padding: 1rem;
+    width: 60%;
+  }
+
+.alert-box{
+    padding: 1rem;
+    border: 0.1rem solid var(--alert-border-color);
+    margin: 0.5rem;
+    border-radius:1rem;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.alert-primary{
+    background-color: var(--primary-alert-color);
+    color: var(--primary-alert-text-color);
+}
+
+.alert-secondary{
+    background-color: var(--secondary-alert-color);
+    color: var(--secondary-alert-text-color);
+}
+
+.alert-success{
+    background-color: var(--success-alert-color);
+    color: var(--success-alert-text-color);
+}
+.alert-warning{
+    background-color: var(--warning-alert-color);
+    color: var(--warning-alert-text-color);
+}
+
+.alert-close{
+    background-color: transparent;
+    font-size: large;
+    color: var(--alert-border-color);
+    border: 0;
+    margin-left: 5rem;
+    cursor: pointer;
+}
