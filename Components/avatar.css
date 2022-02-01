@@ -1,0 +1,66 @@
+body{
+    --primary-color:brown;
+}
+
+.components-avatar-display{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+.avatar{
+    padding: 1rem;
+    align-self: center;
+}
+
+.avatar-img{
+    border-radius: 50%;
+    height:100%;
+    width:100%;
+}
+
+.avatar-l{
+    height:10rem;
+    width:10rem;
+}
+
+.avatar-m{
+    height:8rem;
+    width:8rem;
+}
+
+.avatar-s{
+    height:6rem;
+    width:6rem;
+}
+
+.avatar-xs{
+    height:4rem;
+    width:4rem;    
+}
+
+/* --Components Avatar With Texts----- */
+
+.avatar-box{
+    display: flex;
+    width: 9rem;
+    height:3rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    /* border:0.2rem solid brown; */
+    border:0.2rem solid var(--primary-color);
+}
+
+.avatar-box-img{
+    height:3rem;
+    width:3rem;   
+    border-radius: 50%;
+    border: 0px solid white;
+}
+
+.avatar-text{
+    align-self: center;
+    margin-left: 0.5rem;
+}
+
