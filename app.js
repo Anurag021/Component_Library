@@ -1,3 +1,4 @@
+// Button close functionality
 const btnDangerClose = document.querySelector(".btn-danger-close")
 const btnSuccessClose = document.querySelector(".btn-success-close")
 
