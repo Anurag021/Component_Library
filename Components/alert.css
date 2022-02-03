@@ -1,0 +1,41 @@
+
+.components-alert-display{
+    border: 1px solid var(--color-black);
+    padding: 1rem;
+    width: 60%;
+  }
+.alert-box{
+    padding: 1rem;
+    border: 1px solid var(--color-black);
+    margin: 0.5rem;
+    border-radius:1rem;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.alert-primary{
+    background-color: var(--color-brown-light);
+    color: var(--color-brown);
+}
+.alert-secondary{
+    background-color: var(--color-black-light);
+    color: var(--color-black);
+}
+.alert-success{
+    background-color: var(--color-green-light);
+    color: var(--color-green);
+}
+.alert-warning{
+    background-color: var(--color-orange-light);
+    color: var(--color-orange);
+}
+.alert-close{
+    background-color: transparent;
+    font-size: large;
+    color: var(--color-black);
+    border: 0;
+    margin-left: 5rem;
+    cursor: pointer;
+}

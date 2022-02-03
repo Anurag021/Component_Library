@@ -1,12 +1,10 @@
-body{
-    --primary-color:brown;
-}
 
 .components-avatar-display{
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    border: 0.1rem solid black;
+    border: 1px solid var(--color-black);
+    width: 60%;
 }
 
 .avatar{
@@ -48,15 +46,14 @@ body{
     height:3rem;
     border-radius: 2rem;
     margin: 1rem;
-    /* border:0.2rem solid brown; */
-    border:0.2rem solid var(--primary-color);
+    border:2px solid var(--color-brown);
 }
 
 .avatar-box-img{
     height:3rem;
     width:3rem;   
     border-radius: 50%;
-    border: 0px solid white;
+    border: 0px solid var(--color-white);
 }
 
 .avatar-text{

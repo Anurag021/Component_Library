@@ -1,0 +1,27 @@
+@import url(alert.css);
+@import url(button.css);
+@import url(avatar.css);
+@import url(badges.css);
+
+:root{
+
+    /* --Primary */
+    --color-primary-dark : #1C9991;
+    --color-primary-light : #61FFF4;
+    --color-primary :#41E6DC;
+
+    /* others */
+    --color-brown:brown;
+    --color-brown-light:rgb(247, 174, 174);
+    --color-black: rgb(10, 10, 10);
+    --color-black-light: rgb(180, 178, 178);
+    --color-green:rgb(4, 105, 4);
+    --color-green-light: rgb(138, 185, 138);
+    --color-orange:rgb(250, 114, 3);
+    --color-orange-light:rgb(255, 196, 147);
+    --color-blue:rgb(0, 0, 141);
+    --color-white:white;
+  
+
+}       
+

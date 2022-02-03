@@ -1,0 +1,127 @@
+  .components-button-display{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border: 1px solid var(--color-black);
+  width: 60%;
+}
+.btn{
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  border: none;
+}
+.btn-filled .btn{
+  color: var(--color-white);
+}
+.btn-filled-primary{
+  background-color:var(--color-brown);
+}
+.btn-filled-link{
+  background-color: var(--color-blue);
+}
+.btn-filled-link:hover{
+  text-decoration: underline;
+  background-color:var(--color-white);
+  color:var(--color-blue);
+  border: 1px var(--color-blue) solid;
+  cursor: pointer;
+}
+.btn-filled-icon{
+  background-color: var(--color-brown);
+  position: relative;
+}
+.btn-filled-success{
+  background-color: var(--color-green);
+}
+.btn-outlined .btn{
+  background-color: var(--color-white);
+}
+.btn-outined-primary{
+  border:2px var(--color-brown) solid;
+  color:var(--color-brown);
+}
+.btn-outlined-link{
+  border:2px var(--color-blue) solid;
+  color: var(--color-blue);
+}
+.btn-outlined-link:hover{
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+.btn-outlined-icon{
+  border:2px var(--color-brown) solid;
+  color: var(--color-brown);
+  position: relative;
+}
+.btn-outlined-success{
+  border: 2px var(--color-green) solid;
+  color:var(--color-green);
+}
+ 
+  /* FAB Button */
+  
+.fab-container{
+  cursor: pointer;
+  list-style-type: none;
+  position:absolute;
+  left: 10rem;
+}
+.fab-icon{
+  background-color: var(--color-brown);
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+.fab-button{
+  background-color:var(--color-brown);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.fab-icon span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--color-white);
+}
+.fab-options{
+  list-style-type: none;
+  position: absolute;
+  bottom:2rem;
+  right: 0;
+  visibility: collapse;
+}
+.fab-options li{
+  display:flex;
+  justify-content:flex-end;
+  flex-direction: column;
+  padding:0.5rem;
+  }
+.fab-icon-label{
+  background-color: var(--color-black);
+  padding: 0.2rem 0.5rem;
+  margin-right: 1rem;
+  align-self: center;
+  color: var(--color-white);
+  border-radius: 1rem;
+}
+
+.floating-arrow-btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--color-white);
+  background-color: var(--color-brown);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: none;
+}
+.floating-arrow-btn:hover{
+  background-color: var(--color-white);
+  color: var(--color-brown);
+  border: 2px solid var(--color-brown);
+}
