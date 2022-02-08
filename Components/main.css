@@ -2,11 +2,12 @@
 @import url(button.css);
 @import url(avatar.css);
 @import url(badges.css);
+@import url(cards.css);
 
 :root{
 
     /* --Primary */
-    --color-primary-dark : #1C9991;
+    --color-primary-dark : #0f8078;
     --color-primary-light : #61FFF4;
     --color-primary :#41E6DC;
 
@@ -21,7 +22,5 @@
     --color-orange-light:rgb(255, 196, 147);
     --color-blue:rgb(0, 0, 141);
     --color-white:white;
-  
-
 }       
 
