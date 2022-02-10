@@ -1,0 +1,156 @@
+ /* ----- Horizontal Cards----- */
+ .card-display{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 1px solid var(--color-black);
+    width: 60%;
+  }
+  .horizontal-card-content > *{
+    margin:0px;
+  }
+  .horizontal-card-container{
+    margin:1rem;
+    display: flex;
+    width: 20rem;
+    height: 15rem;
+    border: 1px solid var(--color-black);
+  }
+  .card-image {
+    width: 100%;
+    height: 100%;
+  }
+  .horizontal-card-content{
+    width: 13rem;
+    height: 14rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .horizontal-card-button{
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .card-subheading{
+    color: var(--color-black-light);
+  }
+
+  /* card with close button and badge*/
+  .closeCard::before{
+    position: absolute;
+    content: "#Trending";
+    background:var(--color-blue);
+    top:0.5rem;
+    right: 12.5rem;
+    width: 5rem;
+    padding: 0.2rem;
+    text-align: center;
+    color:var(--color-white);   
+  }
+  .closeCard{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 18rem;
+    margin-top:0.5rem ;
+  }
+
+  /* ------Vertical Cards----- */
+
+  .vertical-card-container{
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 23rem;
+    border: 1px solid black;
+  }
+  .vertical-card-image{
+    height:12rem;
+    width: 20rem;
+  }
+  .vertical-card-content > *{
+    margin:0.1rem;
+  }
+  .vertical-card-content{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .vertical-card-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .vertical-card-button button{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    color: var(--color-primary-dark);
+    cursor: pointer;
+  }
+
+  /* Card OverLay Image */
+  
+  .card-overlay-container{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--color-black-light);
+  }
+  .card-overlay-image{
+    width: 20rem;
+    height: 20rem;
+  }
+  .card-overlay-content{
+    position: absolute;
+    height: 16rem;
+    width: 16rem;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:var(--color-black);
+    color: var(--color-brown-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+  .card-overlay-content > *{
+    margin: 0rem;
+  }
+  .card-overlay:hover .card-overlay-content{
+    opacity: 0.85;
+  }
+  .card-overlay-content button{
+    background-color: var(--color-primary-dark);
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
+  /* Card with Text Only */
+
+  .text-card-content{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 15rem;
+    border: 1px solid var(--color-black);
+    justify-content: space-evenly;
+    padding:0.3rem;
+    background-color: var(--color-white);
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--color-black-light);
+  }
+  .text-card-content > *{
+    margin: 0px;
+  }
+  .text-card-button button{
+    background-color: var(--color-primary-dark);
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    cursor: pointer;
+    border: 1px solid var(--color-black);
+    padding: 0.2rem;
+  }

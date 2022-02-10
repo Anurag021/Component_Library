@@ -26,3 +26,13 @@ fabButton.addEventListener('click', ()=>{
         fabOptions.style.visibility = 'collapse'
     }
 })
+
+// Card close functionality
+var closeCard = document.querySelectorAll(".closeCard")
+
+for (let i = 0; i < closeCard.length; i++) {
+    
+    closeCard[i].addEventListener('click', function() {
+        this.parentElement.style.display = 'none';
+    })
+}

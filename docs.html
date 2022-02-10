@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avtar and Badges</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- <link rel="stylesheet" href="Components/avatar.css">
-    <link rel="stylesheet" href="Components/badges.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="Components/button.css">
-    <link rel="stylesheet" href="Components/alert.css"> -->
     <link rel="stylesheet" href="Components/main.css">
 </head>
 <body>
@@ -180,6 +176,121 @@
       </div>
               
   </div>
+
+  <!----- Cards Components--- -->
+
+  <h2>Horizontal Cards  </h2>
+    <p>These are used to desplay the information in Horizontal format.</p>
+        <div class="card-display">
+          <div class="horizontal-card-container">
+            <div>
+                <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
+            </div>
+            <div class="horizontal-card-content">
+                <h2 class="card-heading">Harry Potter</h2>
+                <h3 class="card-subheading">by J.K.Rowling</h3>
+                <p>Harry Potter and the order of Phenox
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.</p>
+                <button class="horizontal-card-button">Add To Cart</button>
+                <button class="horizontal-card-button">Buy Now</button>    
+            </div>
+          </div>  
+            <!-- Horizontal card with close action and badge -->
+          <div class="horizontal-card-container">
+            <span class="closeCard">❌</span>
+            <div>
+                <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
+            </div>
+            <div class="horizontal-card-content"> 
+                <h2 class="card-heading">Harry Potter</h2>
+                <h3 class="card-subheading">by J.K.Rowling</h3>
+                <p>Harry Potter and the order of Phenox
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.</p>
+                <button class="horizontal-card-button">Add To Cart</button>
+                <button class="horizontal-card-button">Buy Now</button>    
+            </div>
+          </div>
+        </div>
+    <!-- Vertical Cards--- -->
+    <h2>Vertical Cards </h2>
+    <p>These are used to vertically display information on cards.</p>
+        <div class="card-display">   
+          <div class="vertical-card-container">
+            <div class="vertical-card-image">
+                <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+            </div>
+            <div class="vertical-card-content"> 
+                <h2 class="card-heading">Kedarkantha</h2>
+                <h3 class="card-subheading">Trekking In Uttarakhand</h3>
+                <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
+                    trek offers breathtaking view of the majestic Himalayan peaks.</p>
+                <div class="vertical-card-button">
+                  <button>Read</button>
+                  <button>BookMark</button>    
+                  <button><span class="material-icons">favorite_border</span></button>
+                  <button><span class="material-icons">share</span></button>
+                  <button><span class="material-icons">more_vert </span></button>  
+                </div>
+            </div>
+          </div>
+
+          <div class="vertical-card-container">
+             <span class="closeCard">❌</span>  
+              <div class="vertical-card-image">
+                  <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+              </div>
+              <div class="vertical-card-content"> 
+                <h2 class="card-heading">Kedarkantha</h2>
+                <h3 class="card-subheading">Trekking In Uttarakhand</h3>
+                <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
+                trek offers breathtaking view of the majestic Himalayan peaks.</p>
+                <div class="vertical-card-button">
+                  <button>Read</button>
+                  <button>BookMark</button>    
+                  <button><span class="material-icons">favorite_border</span></button>
+                  <button><span class="material-icons">share</span></button>
+                  <button><span class="material-icons">more_vert </span></button>  
+              </div>
+              </div>
+          </div>
+        </div>
+    <!-- ----Cards With overlay Texts    -->
+    <h2>Cards With Text Overlay </h2>
+    <p>These are used to show the overlapping text on the Image,
+          hover on the image to see the Overlapping text.</p>
+        <div class="card-display card-overlay">
+            <div class="card-overlay-container">
+            <div class="card-overlay-image">
+               <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+            </div>
+            <div class="card-overlay-content">
+               <h2>Trekking In Uttrakhand</h2>
+               <h3>Plan Your next Trek</h3>
+               <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
+                   trek offers breathtaking view of the majestic Himalayan peaks.</p>
+               <button class="card-button">Explore Treks</button> 
+            </div>
+            </div>
+        </div>
+    <!-- -----Cards with text---- -->
+    <h2>Cards With Text </h2>
+    <p>Text cards are used to display information.</p>
+        <div class="card-display">
+            <div class="text-card-content">
+                <h2>CSS</h2>
+                <h3 class="card4SubHeading">Cascading Style sheet</h3>
+                <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the
+                    hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms
+                    about the language.
+                </p>
+                <div class="text-card-button">
+                    <button class="action">Continue Reading</button>
+                    <button class="action">Explore JS</button>
+                </div> 
+            </div>
+        </div>
   <script src="app.js"></script>
 </body>
 </html>
