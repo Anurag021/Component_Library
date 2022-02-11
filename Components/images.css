@@ -1,0 +1,30 @@
+.image-responsive{
+    width: 100%;
+    height: auto;
+}
+.image-responsive-media{
+    background-repeat: no-repeat;
+    background-image: url('/Components/Images/forest-area.jpg');
+    border: 2px solid var(--color-gray-600);
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+}
+/* -- for width 600px and smaller */
+@media only screen and (max-width:600px){
+    .image-responsive-media{
+        background-image: url('/Components/Images/KedarkanthaView.png');
+        width: 100%;
+        height: 12.5rem;
+    }
+}
+.image-round{
+    border: 2px solid var(--color-gray-600) ;
+    border-radius: 50%;
+    width: 60%;
+}
+.responsive-image-container{
+    padding: 1rem;
+    border: 1px solid var(--color-gray-200);
+    width: 60%;
+}

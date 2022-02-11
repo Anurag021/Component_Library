@@ -110,10 +110,10 @@
   <div class="components-alert-display">
       <div class="alert-box alert-primary">
           ⚠ Danger alert with close functionality
-          <button class="alert-close btn-danger-close">X</button></div>
+          <button class="alert-close btn-danger-close">❌</button></div>
       <div class="alert-box alert-success">
           ✔️ Success alert with close functionality
-          <button class="alert-close btn-success-close">X</button></div> 
+          <button class="alert-close btn-success-close">❌</button></div> 
   </div>   
       
 
@@ -291,6 +291,42 @@
                 </div> 
             </div>
         </div>
+    
+    <!-- ---Input forms--- -->
+    <h2>Inputs</h2>
+    <p>Inputs are generally used to get data from user, below are diffrent types of input fields 
+        normal input, validation input and text box.
+    </p>
+    <div class="input-container">
+        <form action="#" class="input-form">
+            <label for="user-name">UserName:</label>
+            <input type="text" id="user-name">
+            <label for="password">Password:</label>
+            <input type="text" id="password">
+            <p class="input-password-text">password length should be greater than 8 digits</p>  
+            <label for="description">Description:</label>
+            <textarea id="description"></textarea>
+            <input type="submit" id="form-submit">
+        </form>
+    </div>
+
+    <!-- -----Responsive Images------ -->
+    <h2>Responsive Images</h2>
+    <p> Images can be made responsive so that they can fit the size of the screen.</p>
+    <div class="responsive-image">
+        <h3>Responsive image without using any media queries.</h3>
+        <div class="responsive-image-container">
+            <img src="/Components/Images/Mountains.jpg" alt="Background Image" class="image-responsive">    
+        </div>
+        <h3>Responsive Image using Media Query, Here image changes with the change in viewport.</h3>
+        <div class="responsive-image-container">
+            <div class="image-responsive-media"></div>
+        </div>
+        <h3>Round Responsive Image.</h3>
+        <div class="responsive-image-container">
+            <img src="/Components/Images/Mountains.jpg" alt="Background Image" class="image-responsive image-round">
+        </div>
+    </div>
   <script src="app.js"></script>
 </body>
 </html>

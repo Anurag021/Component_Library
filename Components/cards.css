@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-gray-200);
     width: 60%;
   }
   .horizontal-card-content > *{
@@ -14,7 +14,7 @@
     display: flex;
     width: 20rem;
     height: 15rem;
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-gray-600);
   }
   .card-image {
     width: 100%;
@@ -29,26 +29,26 @@
     justify-content: space-evenly;
   }
   .horizontal-card-button{
-    background-color: var(--color-primary-dark);
-    color: var(--color-white);
+    background-color: var(--color-primary);
+    color: var(--color-gray-100);
     border-radius: 5px;
     cursor: pointer;
   }
   .card-subheading{
-    color: var(--color-black-light);
+    color: var(--color-gray-300);
   }
 
   /* card with close button and badge*/
   .closeCard::before{
     position: absolute;
     content: "#Trending";
-    background:var(--color-blue);
+    background:var(--color-link);
     top:0.5rem;
     right: 12.5rem;
     width: 5rem;
     padding: 0.2rem;
     text-align: center;
-    color:var(--color-white);   
+    color:var(--color-gray-100);   
   }
   .closeCard{
     position: absolute;
@@ -65,7 +65,7 @@
     flex-direction: column;
     width: 20rem;
     height: 23rem;
-    border: 1px solid black;
+    border: 1px solid var(--color-gray-600);
   }
   .vertical-card-image{
     height:12rem;
@@ -88,7 +88,7 @@
     background-color: transparent;
     border: none;
     font-size: large;
-    color: var(--color-primary-dark);
+    color: var(--color-primary);
     cursor: pointer;
   }
 
@@ -98,7 +98,7 @@
     width: 20rem;
     height: 20rem;
     display: flex;
-    box-shadow: 0.5rem 0.5rem 0.5rem var(--color-black-light);
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--color-gray-300);
   }
   .card-overlay-image{
     width: 20rem;
@@ -110,8 +110,8 @@
     width: 16rem;
     opacity: 0;
     transition: .5s ease;
-    background-color:var(--color-black);
-    color: var(--color-brown-light);
+    background-color:var(--color-gray-600);
+    color: var(--color-primary-light);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -124,9 +124,9 @@
     opacity: 0.85;
   }
   .card-overlay-content button{
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-primary);
     border-radius: 0.5rem;
-    color: var(--color-white);
+    color: var(--color-gray-100);
     cursor: pointer;
   }
 
@@ -137,20 +137,20 @@
     flex-direction: column;
     width: 18rem;
     height: 15rem;
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-gray-600);
     justify-content: space-evenly;
     padding:0.3rem;
-    background-color: var(--color-white);
-    box-shadow: 0.5rem 0.5rem 0.5rem var(--color-black-light);
+    background-color: var(--color-gray-100);
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--color-gray-300);
   }
   .text-card-content > *{
     margin: 0px;
   }
   .text-card-button button{
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-primary);
     border-radius: 0.5rem;
-    color: var(--color-white);
+    color: var(--color-gray-100);
     cursor: pointer;
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-gray-600);
     padding: 0.2rem;
   }
