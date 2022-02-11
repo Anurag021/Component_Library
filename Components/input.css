@@ -20,13 +20,13 @@
 .input-form > *{
     margin:0.3rem;
 }
-#password{
+.input-form-password{
     border: 2px var(--color-error) solid;
 }
 .input-form input,#description {
     width: 80%;
 }
-#form-submit{
+#input-form-submit{
     width: 40%;
     margin-left: 5rem;
     margin-top: 1rem;
