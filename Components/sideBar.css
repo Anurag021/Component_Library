@@ -2,9 +2,9 @@
     padding: 1rem;
     width: 20%;
     position: sticky;
-    top: 4.7rem;
+    top: 0rem;
     overflow-y: scroll;
-    height: 36rem;
+    height: 40rem;
     background-color:var(--color-primary-light);
 }
 .side-container ul{
@@ -20,4 +20,7 @@
 .side-container a{
     color:var(--color-gray-600);
     text-decoration: none;
+}
+.side-container a:hover{
+    color: var(--color-gray-300);
 }

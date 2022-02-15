@@ -1,15 +1,18 @@
 .header-container{
     align-items: center;
     border: 1px solid var(--color-primary-600);
-    position: sticky;
     background-color: var(--color-primary-light);
-    top:0.1rem;
-    z-index: 1;
+}
+
+.header-container a{
+    text-decoration: none;
 }
 .header-container h3{
     font-size: 1.5rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     color: var(--color-primary-dark);
+    font-family: cursive;
+    font-size: xx-large;
 }
 .header-links{
     margin-left: 40rem;
@@ -19,4 +22,8 @@
     font-size: larger;
     color: var(--color-primary-600);
     text-decoration: none;
+    font-weight: bold;
+}
+.header-links a:hover{
+    color: var(--color-gray-300);
 }

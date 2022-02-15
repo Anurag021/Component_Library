@@ -1,9 +1,4 @@
  /* ----- Horizontal Cards----- */
- .card-display{
-    padding: 1rem;
-    border: 1px solid var(--color-gray-200);
-    width: 90%;
-  }
   .horizontal-card-content > *{
     margin:0px;
   }

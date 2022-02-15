@@ -13,10 +13,10 @@
 <body>
     <!------- Header------ -->
     <header class="header-container flex-row">
-        <h3>Enigma UI</h3>
+        <a href="docs.html"><h3>Enigma UI</h3></a>
         <div class="header-links">
-            <a href="#">Home</a>
-            <a href="#">Documentation</a>
+            <a href="docs.html">Home</a>
+            <a href="docs.html">Documentation</a>
         </div>
     </header>
 
@@ -25,20 +25,20 @@
         <aside class="side-container">
             <h2>Components</h2>
             <ul>
-                <li><a href="#Alerts">Alerts</a></li>
-                <li><a href="#Avatar">Avatar</a></li>
-                <li><a href="#Badges">Badges</a></li>
-                <li><a href="#Button">Button</a></li>
-                <li><a href="#Cards">Cards</a></li>
-                <li><a href="#Forms">Inputs</a></li>
-                <li><a href="#Images">Images</a></li>
-                <li><a href="#Toast">Toast</a></li>
+                <li><a href="#avatars">Avatar</a></li>
+                <li><a href="#badges">Badges</a></li>
+                <li><a href="#alerts">Alerts</a></li>                
+                <li><a href="#buttons">Button</a></li>
+                <li><a href="#cards">Cards</a></li>
+                <li><a href="#inputs">Inputs</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#toasts">Toast</a></li>
             </ul>
         </aside>
         <!-- documentation content starts here -->
         <div class="content-docs">
             <!-- ----Components Avatart---- -->
-            <div class="main-content-heading">
+            <div class="main-content-heading" id="avatars">
                 <h1>Avatars</h1>
                 <p>Avatar can be used to display profile information and can be used to display categories</p>
             </div>
@@ -46,7 +46,7 @@
             <div class="components-avatar">
                 <h2 class="component-heading">Avatars for Profiles </h2>
                 <p class="component-description">Avatar can be used to display user profile picture</p>
-                <div class="components-avatar-display flex-row">    
+                <div class="component-display flex-row">    
                     <div class="avatar avatar-l">
                         <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
                     </div>
@@ -70,7 +70,7 @@
 
                 <h2 class="component-heading">Avatar With Texts</h2>
                 <p class="component-description">Avatar with texts are used to display the information in the form of chips, so that they can be easily categorise</p>
-                <div class="components-avatar-display flex-row">
+                <div class="component-display flex-row">
                     <div class="avatar-box">
                         <img src="Components/Images/Avatar_Book_Fiction.jpg" alt="" class="avatar-box-img">
                         <div class="avatar-text">Fiction</div>
@@ -98,13 +98,13 @@
             <!------ Component Avatar Ends Here-- -->
 
             <!-- ----Components Badges start Here---- -->
-            <div class="main-content-heading">
+            <div class="main-content-heading" id="badges">
                 <h1>Badges</h1>
                 <p>Badges are used to display a notification or status information</p>
             </div>
             <div class="component-badges">
                 <h2 class="component-heading">Badges on Icons</h2>
-                <div class="compnents-badges-display flex-row">
+                <div class="component-display flex-row">
                     <div class="badge-box">
                         <span class="material-icons badge-icons">pets</span>
                         <span class="badge badge-icon-position">5</span>
@@ -131,7 +131,7 @@
                 
 
                 <h2 class="component-heading"> Badges on Avatars</h2>
-                <div class="compnents-badges-display flex-row">
+                <div class="component-display flex-row">
                     <div class="avatar avatar-l">
                         <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
                         <span class="badge badge-avatar-text-position">4m</span>
@@ -159,12 +159,12 @@
             <!-- Badge components ends here -->
 
             <!-- Alert Components Starts Here -->
-            <div class="main-content-heading">
+            <div class="main-content-heading" id="alerts">
                 <h1>Alert</h1>
                 <p>Alerts provides feedback messages for typical user actions with alert messages.</p>
             </div>
             <h2 class="component-heading">Alert Examples</h2>
-            <div class="components-alert-display">
+            <div class="component-display">
                 <div class="alert-box alert-primary">
                     ⚠ This is a danger alert </div>
                 <div class="alert-box alert-secondary">
@@ -184,7 +184,7 @@
                
 
             <h2 class="component-heading">Alert Button with close functionality</h2>
-            <div class="components-alert-display">
+            <div class="component-display">
                 <div class="alert-box alert-primary">
                     ⚠ Danger alert with close functionality
                     <button class="alert-close btn-danger-close pointer">❌</button>
@@ -203,13 +203,13 @@
             <!-- Alert components ends here -->
 
             <!-- Button Components Starts Here -->
-            <div class="main-content-heading">
+            <div class="main-content-heading" id="buttons">
                 <h1>Button</h1>
                 <p>Buttons are used to perform certain actions associated with them, below are some of the types of buttons that can be used based on requirements.</p>
             </div>
             <div class="components-button">
                 <h2 class="component-heading">Filled Buton</h2>
-                <div class="btn-filled components-button-display flex-row">
+                <div class="btn-filled component-display flex-row">
                     <button class="btn btn-filled-primary">
                         Primary </button>
                     <a href="#"><button class="btn btn-filled-link">
@@ -228,7 +228,7 @@
                 </div>
                 
                 <h2 class="component-heading">Outlined Button</h2>
-                <div class="btn-outlined components-button-display flex-row">
+                <div class="btn-outlined component-display flex-row">
                     <button class="btn btn-outined-primary">
                         Primary </button>
                     <a href="#"><button class="btn btn-outlined-link">
@@ -248,7 +248,7 @@
                 
                 <!-- Floating action Button -->
                 <h2 class="component-heading">Floating Button</h2>
-                <div class="components-button-display flex-row">
+                <div class="component-display flex-row">
                     <div class="fab-container pointer">
                         <div class="fab-button fab-icon"><span class="material-icons flex-row">add</span></div>
                         <ul class="fab-options">
@@ -284,7 +284,7 @@
             <!-- Component Button Ends Here -->
 
             <!-- Card Components starts here -->
-            <div class="main-content-heading">
+            <div class="main-content-heading" id="cards">
                 <h1>Cards</h1>
                 <p>Card is a flexible and extensive content container, that includes option for header fotter and wide varity of content
                     these are used to display information like buying things, creating blogs etc.</p>
@@ -292,7 +292,7 @@
 
             <h2 class="component-heading">Horizontal Cards</h2>
             <p class="component-description">They are used to display the information in Horizontal format.</p>
-            <div class="card-display flex-row">
+            <div class="component-display flex-row">
                 <div class="horizontal-card-container flex-row">
                     <div>
                         <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
@@ -333,7 +333,7 @@
             <!-- Vertical Cards--- -->
             <h2 class="component-heading">Vertical Cards</h2>
             <p class="component-description">These are used to vertically display information on cards.</p>
-            <div class="card-display flex-row">   
+            <div class="component-display flex-row">   
                 <div class="vertical-card-container flex-column">
                 <div class="vertical-card-image">
                     <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
@@ -384,7 +384,7 @@
             <h2 class="component-heading">Cards With Text Overlay</h2>
             <p class="component-description">Used to show the overlapping text on the Image,
                 hover on the image to see the Overlapping text.</p>
-            <div class="card-display card-overlay flex-row">
+            <div class="component-display card-overlay flex-row">
                 <div class="card-overlay-container flex-row">
                 <div class="card-overlay-image">
                     <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
@@ -407,7 +407,7 @@
             <!-- Cards with text---- -->
             <h2 class="component-heading">Cards With Text</h2>
             <p class="component-description">Text cards are used to display information.</p>
-            <div class="card-display">
+            <div class="component-display">
                 <div class="text-card-content flex-column">
                     <h2>CSS</h2>
                     <h3 class="card4SubHeading">Cascading Style sheet</h3>
@@ -428,48 +428,75 @@
                 </iframe>
             </div> 
      <!-- Card Components Ends Here -->
+     <!-- Input Components starts here -->
+            <div class="main-content-heading" id="inputs">
+                <h1>Inputs</h1>
+                <p>Inputs are generally used to get data from user, below are diffrent types of input fields 
+                    normal input, validation input and text box.</p>
+            </div>
+            <div class="component-display">
+                <form action="#" class="input-form flex-column">
+                    <label for="user-name">UserName:</label>
+                    <input type="text" class="input-form-user-name">
+                    <label for="password">Password:</label>
+                    <input type="text" class="input-form-password">
+                    <p class="input-password-text">password length should be greater than 8 digits</p>  
+                    <label for="description">Description:</label>
+                    <textarea id="description"></textarea>
+                    <button class="input-form-submit">Submit</button>
+                </form>
+            </div>
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%2520%253Cform%2520action%253D%2522%2523%2522%2520class%253D%2522input-form%2520flex-column%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-name%2522%253EUserName%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-form-user-name%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-form-password%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522input-password-text%2522%253Epassword%2520length%2520should%2520be%2520greater%2520than%25208%2520digits%253C%252Fp%253E%2520%2520%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522description%2522%253EDescription%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520id%253D%2522description%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522input-form-submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%253C%252Fform%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div> 
+     <!-- Input components ends here -->
+
+     <!-- Responsive images components starts here -->
+            <div class="main-content-heading" id="images">
+                <h1>Responsive Images</h1>
+                <p>Images can be made responsive so that they can fit the size of the screen.</p>
+            </div>
+            <div class="responsive-image">
+                <h2 class="component-heading">Responsive image without using any media queries.</h2>
+                <div class="component-display">
+                    <img src="/Components/Images/Mountains.jpg" alt="Background Image" class="image-responsive">    
+                </div>
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522responsive-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FMountains.jpg%2522%2520alt%253D%2522Background%2520Image%2522%2520class%253D%2522image-responsive%2522%253E%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="component-heading">Responsive Image using Media Query, Here image changes with the change in viewport.</h2>
+                <div class="component-display">
+                    <div class="image-responsive-media"></div>
+                </div>
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522responsive-image-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-responsive-media%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="component-heading">Round Responsive Image.</h2>
+                <div class="component-display">
+                    <img src="/Components/Images/Mountains.jpg" alt="Background Image" class="image-responsive image-round">
+                </div>
+                <div class="code-display">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522responsive-image-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FMountains.jpg%2522%2520alt%253D%2522Background%2520Image%2522%2520class%253D%2522image-responsive%2520image-round%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+
+            </div>
+     <!-- Responsive images components ends here -->
         </div>
         
-    </div>
-    
-
-
-
-    
-    <!-- ---Input forms--- -->
-    <h2>Inputs</h2>
-    <p>Inputs are generally used to get data from user, below are diffrent types of input fields 
-        normal input, validation input and text box.
-    </p>
-    <div class="input-container">
-        <form action="#" class="input-form flex-column">
-            <label for="user-name">UserName:</label>
-            <input type="text" class="input-form-user-name">
-            <label for="password">Password:</label>
-            <input type="text" class="input-form-password">
-            <p class="input-password-text">password length should be greater than 8 digits</p>  
-            <label for="description">Description:</label>
-            <textarea id="description"></textarea>
-            <input type="submit" class="input-form-submit">
-        </form>
-    </div>
-
-    <!-- -----Responsive Images------ -->
-    <h2>Responsive Images</h2>
-    <p> Images can be made responsive so that they can fit the size of the screen.</p>
-    <div class="responsive-image">
-        <h3>Responsive image without using any media queries.</h3>
-        <div class="responsive-image-container">
-            <img src="/Components/Images/Mountains.jpg" alt="Background Image" class="image-responsive">    
-        </div>
-        <h3>Responsive Image using Media Query, Here image changes with the change in viewport.</h3>
-        <div class="responsive-image-container">
-            <div class="image-responsive-media"></div>
-        </div>
-        <h3>Round Responsive Image.</h3>
-        <div class="responsive-image-container">
-            <img src="/Components/Images/Mountains.jpg" alt="Background Image" class="image-responsive image-round">
-        </div>
     </div>
   <script src="app.js"></script>
 </body>
