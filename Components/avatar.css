@@ -3,36 +3,31 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-gray-200);
     width: 60%;
 }
-
 .avatar{
     padding: 1rem;
     align-self: center;
 }
-
 .avatar-img{
     border-radius: 50%;
     height:100%;
     width:100%;
+    object-fit: cover;
 }
-
 .avatar-l{
     height:10rem;
     width:10rem;
 }
-
 .avatar-m{
     height:8rem;
     width:8rem;
 }
-
 .avatar-s{
     height:6rem;
     width:6rem;
 }
-
 .avatar-xs{
     height:4rem;
     width:4rem;    
@@ -46,16 +41,13 @@
     height:3rem;
     border-radius: 2rem;
     margin: 1rem;
-    border:2px solid var(--color-brown);
+    border:2px solid var(--color-primary);
 }
-
 .avatar-box-img{
     height:3rem;
     width:3rem;   
     border-radius: 50%;
-    border: 0px solid var(--color-white);
 }
-
 .avatar-text{
     align-self: center;
     margin-left: 0.5rem;

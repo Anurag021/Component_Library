@@ -36,3 +36,22 @@ for (let i = 0; i < closeCard.length; i++) {
         this.parentElement.style.display = 'none';
     })
 }
+
+// Password checking for input file
+var password = document.querySelector("#password")
+var passwordText = document.querySelector(".input-password-text")
+
+password.addEventListener('change',passwordChecker)
+
+function passwordChecker (){
+    if(password.value.length > 8){
+        password.style.border = "2px var(--color-success) solid";
+        passwordText.style.color= "var(--color-success)";
+        passwordText.innerText = "valid password";
+    }
+    else{
+        passwordText.style.color= "var(--color-error)";
+        passwordText.innerText = "password len should be greater than 8 digits";
+        password.style.border = "2px var(--color-error) solid";        
+    }
+}
