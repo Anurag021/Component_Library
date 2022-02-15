@@ -1,0 +1,22 @@
+.header-container{
+    align-items: center;
+    border: 1px solid var(--color-primary-600);
+    position: sticky;
+    background-color: var(--color-primary-light);
+    top:0.1rem;
+    z-index: 1;
+}
+.header-container h3{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    color: var(--color-primary-dark);
+}
+.header-links{
+    margin-left: 40rem;
+}
+.header-links a{
+    padding: 1rem;
+    font-size: larger;
+    color: var(--color-primary-600);
+    text-decoration: none;
+}

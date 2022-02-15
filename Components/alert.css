@@ -2,7 +2,7 @@
 .components-alert-display{
     border: 1px solid var(--color-gray-200);
     padding: 1rem;
-    width: 60%;
+    width: 90%;
   }
 .alert-box{
     padding: 1rem;
@@ -33,6 +33,5 @@
     font-size: large;
     color: var(--color-gray-600);
     border: 0;
-    margin-left: 5rem;
-    cursor: pointer;
+    margin-left: 10rem;
 }

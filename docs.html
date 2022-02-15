@@ -4,293 +4,437 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avtar and Badges</title>
+    <title>Documnetatio Page</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="Components/main.css">
 </head>
 <body>
-    <!-- ----Components Avatart---- -->
-    <div class="components-avatar">
-        <h2>Avatars</h2>
-        <div class="components-avatar-display flex-row">    
-            <div class="avatar avatar-l">
-                <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
-            </div>
-            <div class="avatar avatar-m">
-                <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
-            </div>
-            <div class="avatar avatar-s">
-                <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
-            </div>
-            <div class="avatar avatar-xs">
-                <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
-            </div>
+    <!------- Header------ -->
+    <header class="header-container flex-row">
+        <h3>Enigma UI</h3>
+        <div class="header-links">
+            <a href="#">Home</a>
+            <a href="#">Documentation</a>
         </div>
+    </header>
 
-        <h2>Avatar With Texts</h2>
-        <div class="components-avatar-display flex-row">
-            <div class="avatar-box">
-                <img src="Components/Images/Avatar_Book_Fiction.jpg" alt="" class="avatar-box-img">
-                <div class="avatar-text">Fiction</div>
+    <div class="main-container">
+        <!-- ---Side Bar -->
+        <aside class="side-container">
+            <h2>Components</h2>
+            <ul>
+                <li><a href="#Alerts">Alerts</a></li>
+                <li><a href="#Avatar">Avatar</a></li>
+                <li><a href="#Badges">Badges</a></li>
+                <li><a href="#Button">Button</a></li>
+                <li><a href="#Cards">Cards</a></li>
+                <li><a href="#Forms">Inputs</a></li>
+                <li><a href="#Images">Images</a></li>
+                <li><a href="#Toast">Toast</a></li>
+            </ul>
+        </aside>
+        <!-- documentation content starts here -->
+        <div class="content-docs">
+            <!-- ----Components Avatart---- -->
+            <div class="main-content-heading">
+                <h1>Avatars</h1>
+                <p>Avatar can be used to display profile information and can be used to display categories</p>
             </div>
-            <div class="avatar-box">
-                <img src="Components/Images/Avatar-Book-Nonfiction.jpg" alt="" class="avatar-box-img">
-                <div class="avatar-text">Non-Fiction</div>
-            </div>
-            <div class="avatar-box">
-                <img src="Components/Images/Avatar-Book-Mystery.jpg" alt="" class="avatar-box-img">
-                <div class="avatar-text">Mystery</div>
-            </div>
-            <div class="avatar-box">
-                <img src="Components/Images/Avatar-Book-Thriller.jpg" alt="" class="avatar-box-img">
-                <div class="avatar-text">Thriller</div>
-            </div>
-        </div>
+            
+            <div class="components-avatar">
+                <h2 class="component-heading">Avatars for Profiles </h2>
+                <p class="component-description">Avatar can be used to display user profile picture</p>
+                <div class="components-avatar-display flex-row">    
+                    <div class="avatar avatar-l">
+                        <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
+                    </div>
+                    <div class="avatar avatar-m">
+                        <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
+                    </div>
+                    <div class="avatar avatar-s">
+                        <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
+                    </div>
+                    <div class="avatar avatar-xs">
+                        <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
+                    </div>
+                </div>
 
-        </div>
+                <div class="code-display">
+                     <iframe
+                         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522components-avatar-display%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Man.png%2522%2520alt%253D%2522Avatar%2520Here%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-m%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Man.png%2522%2520alt%253D%2522Avatar%2520Here%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Man.png%2522%2520alt%253D%2522Avatar%2520Here%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Man.png%2522%2520alt%253D%2522Avatar%2520Here%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                         sandbox="allow-scripts allow-same-origin">
+                     </iframe>
+                 </div>
 
-        <!-- ----Components Badges---- -->
-        
-    <div class="component-badges">
-        <h2>Badges on Icons</h2>
-        <div class="compnents-badges-display flex-row">
-            <div class="badge-box">
-                <span class="material-icons badge-icons">pets</span>
-                <span class="badge badge-icon-position">5</span>
-            </div>
-            <div class="badge-box">
-                <span class="material-icons badge-icons">code</span>
-                <span class="badge badge-icon-position">8</span>
-            </div>
-            <div class="badge-box">
-                <span class="material-icons badge-icons">lightbulb</span>
-                <span class="badge badge-icon-position">3</span>
-            </div>
-            <div class="badge-box">
-                <span class="material-icons badge-icons">visibility</span>
-                <span class="badge badge-icon-position">1m</span>
-            </div>
-        </div>
-        <h2></h12> Badges on Avatars</h2>
-        <div class="compnents-badges-display">
-            <div class="avatar avatar-l">
-                <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
-                <span class="badge badge-avatar-text-position">4m</span>
-            </div>
-            <div class="avatar avatar-m ">
-                <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
-                <span class="badge badge-avatar-text-position">2m</span>
-            </div>
-            <div class="avatar avatar-s ">
-                <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
-                <span class="badge badge-avatar-position"></span>
-            </div>
-            <div class="avatar avatar-xs ">
-                <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
-                <span class="badge badge-avatar-position"></span>
-            </div>
-        </div>        
-    </div>
-
-  <!-- --Alert Components-- -->
-  <h3>Alerts</h3>
-  <div class="components-alert-display">
-      <div class="alert-box alert-primary">
-          ⚠ This is a danger alert </div>
-      <div class="alert-box alert-secondary">
-          This is a secondary alert </div> 
-      <div class="alert-box alert-success">
-          ✔️ This is a success alert </div> 
-      <div class="alert-box alert-warning">
-          ⚠ This is a Warning alert </div> 
-  </div>
-  <h3> Alert Button with close functionality</h3>
-  <div class="components-alert-display">
-      <div class="alert-box alert-primary">
-          ⚠ Danger alert with close functionality
-          <button class="alert-close btn-danger-close pointer">❌</button></div>
-      <div class="alert-box alert-success">
-          ✔️ Success alert with close functionality
-          <button class="alert-close btn-success-close pointer">❌</button></div> 
-  </div>   
-      
-
-  <!-- --Button Components-- -->
-
-  <div class="components-button">
-      <h3>Filled Buton</h3>
-      <div class="btn-filled components-button-display flex-row">
-          <button class="btn btn-filled-primary">
-              Primary </button>
-          <a href="#"><button class="btn btn-filled-link">
-              Link</button></a>
-          <button class="btn btn-filled-icon">
-              <span class="material-icons">home</span>
-          </button>
-          <button class="btn btn-filled-success">
-              Success</button>
-      </div>
-
-      <h3>Outlined Button</h3>
-      <div class="btn-outlined components-button-display flex-row">
-          <button class="btn btn-outined-primary">
-              Primary </button>
-          <a href="#"><button class="btn btn-outlined-link">
-              Link</button></a>
-          <button class="btn btn-outlined-icon">
-              <span class="material-icons">home</span>
-          </button>
-          <button class="btn btn-outlined-success">
-              Success</button>
-      </div>
-
-      <h3>Floating Button</h3>
-      <!-- Floating action Button -->
-      <div class="components-button-display flex-row">
-          <div class="fab-container pointer">
-              <div class="fab-button fab-icon"><span class="material-icons flex-row">add</span></div>
-              <ul class="fab-options">
-                  <li>
-                      <span class="fab-icon-label">Facebook</span>
-                      <div class="fab-icon"><span class="fab fa-facebook flex-row"></span></div>
-                  </li>
-                  <li>
-                      <span class="fab-icon-label">Instagram</span>
-                      <div class="fab-icon"><span class="fab fa-instagram flex-row"></span></div>
-                  </li>
-                  <li>
-                      <span class="fab-icon-label">Telegram</span>
-                      <div class="fab-icon"><span class="fab fa-telegram flex-row"></span></div>
-                  </li>
-                  <li>
-                      <span class="fab-icon-label">Twitter</span>
-                      <div class="fab-icon"><span class="fab fa-twitter flex-row"></span></div>
-                  </li>
-              </ul>
-          </div>
-          <!-- floating arrow button -->
-          <a href="#"><button class="floating-arrow-btn">
-              <span class="material-icons">arrow_upward</span></button></a>
-      </div>
-              
-  </div>
-
-  <!----- Cards Components--- -->
-
-  <h2>Horizontal Cards  </h2>
-    <p>These are used to desplay the information in Horizontal format.</p>
-        <div class="card-display flex-row">
-          <div class="horizontal-card-container flex-row">
-            <div>
-                <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
-            </div>
-            <div class="horizontal-card-content flex-column">
-                <h2 class="card-heading">Harry Potter</h2>
-                <h3 class="card-subheading">by J.K.Rowling</h3>
-                <p>Harry Potter and the order of Phenox
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit.</p>
-                <button class="horizontal-card-button ">Add To Cart</button>
-                <button class="horizontal-card-button">Buy Now</button>    
-            </div>
-          </div>  
-            <!-- Horizontal card with close action and badge -->
-          <div class="horizontal-card-container flex-row">
-            <span class="closeCard pointer">❌</span>
-            <div>
-                <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
-            </div>
-            <div class="horizontal-card-content flex-column"> 
-                <h2 class="card-heading">Harry Potter</h2>
-                <h3 class="card-subheading">by J.K.Rowling</h3>
-                <p>Harry Potter and the order of Phenox
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit.</p>
-                <button class="horizontal-card-button">Add To Cart</button>
-                <button class="horizontal-card-button">Buy Now</button>    
-            </div>
-          </div>
-        </div>
-    <!-- Vertical Cards--- -->
-    <h2>Vertical Cards </h2>
-    <p>These are used to vertically display information on cards.</p>
-        <div class="card-display flex-row">   
-          <div class="vertical-card-container flex-column">
-            <div class="vertical-card-image">
-                <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
-            </div>
-            <div class="vertical-card-content"> 
-                <h2 class="card-heading">Kedarkantha</h2>
-                <h3 class="card-subheading">Trekking In Uttarakhand</h3>
-                <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
-                    trek offers breathtaking view of the majestic Himalayan peaks.</p>
-                <div class="vertical-card-button">
-                  <button>Read</button>
-                  <button>BookMark</button>    
-                  <button><span class="material-icons">favorite_border</span></button>
-                  <button><span class="material-icons">share</span></button>
-                  <button><span class="material-icons">more_vert </span></button>  
+                <h2 class="component-heading">Avatar With Texts</h2>
+                <p class="component-description">Avatar with texts are used to display the information in the form of chips, so that they can be easily categorise</p>
+                <div class="components-avatar-display flex-row">
+                    <div class="avatar-box">
+                        <img src="Components/Images/Avatar_Book_Fiction.jpg" alt="" class="avatar-box-img">
+                        <div class="avatar-text">Fiction</div>
+                    </div>
+                    <div class="avatar-box">
+                        <img src="Components/Images/Avatar-Book-Nonfiction.jpg" alt="" class="avatar-box-img">
+                        <div class="avatar-text">Non-Fiction</div>
+                    </div>
+                    <div class="avatar-box">
+                        <img src="Components/Images/Avatar-Book-Mystery.jpg" alt="" class="avatar-box-img">
+                        <div class="avatar-text">Mystery</div>
+                    </div>
+                    <div class="avatar-box">
+                        <img src="Components/Images/Avatar-Book-Thriller.jpg" alt="" class="avatar-box-img">
+                        <div class="avatar-text">Thriller</div>
+                    </div>
+                </div>
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522components-avatar-display%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FAvatar_Book_Fiction.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-box-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2522%253EFiction%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Book-Nonfiction.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-box-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2522%253ENon-Fiction%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Book-Mystery.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-box-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2522%253EMystery%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FAvatar-Book-Thriller.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-box-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2522%253EThriller%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </div>
-          </div>
+            <!------ Component Avatar Ends Here-- -->
 
-          <div class="vertical-card-container flex-column">
-             <span class="closeCard">❌</span>  
-              <div class="vertical-card-image">
-                  <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
-              </div>
-              <div class="vertical-card-content"> 
-                <h2 class="card-heading">Kedarkantha</h2>
-                <h3 class="card-subheading">Trekking In Uttarakhand</h3>
-                <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
-                trek offers breathtaking view of the majestic Himalayan peaks.</p>
-                <div class="vertical-card-button">
-                  <button>Read</button>
-                  <button>BookMark</button>    
-                  <button><span class="material-icons">favorite_border</span></button>
-                  <button><span class="material-icons">share</span></button>
-                  <button><span class="material-icons">more_vert </span></button>  
-              </div>
-              </div>
-          </div>
-        </div>
-    <!-- ----Cards With overlay Texts    -->
-    <h2>Cards With Text Overlay </h2>
-    <p>These are used to show the overlapping text on the Image,
-          hover on the image to see the Overlapping text.</p>
-        <div class="card-display card-overlay flex-row">
-            <div class="card-overlay-container flex-row">
-            <div class="card-overlay-image">
-               <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+            <!-- ----Components Badges start Here---- -->
+            <div class="main-content-heading">
+                <h1>Badges</h1>
+                <p>Badges are used to display a notification or status information</p>
             </div>
-            <div class="card-overlay-content flex-column">
-               <h2>Trekking In Uttrakhand</h2>
-               <h3>Plan Your next Trek</h3>
-               <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
-                   trek offers breathtaking view of the majestic Himalayan peaks.</p>
-               <button class="card-button">Explore Treks</button> 
+            <div class="component-badges">
+                <h2 class="component-heading">Badges on Icons</h2>
+                <div class="compnents-badges-display flex-row">
+                    <div class="badge-box">
+                        <span class="material-icons badge-icons">pets</span>
+                        <span class="badge badge-icon-position">5</span>
+                    </div>
+                    <div class="badge-box">
+                        <span class="material-icons badge-icons">code</span>
+                        <span class="badge badge-icon-position">8</span>
+                    </div>
+                    <div class="badge-box">
+                        <span class="material-icons badge-icons">lightbulb</span>
+                        <span class="badge badge-icon-position">3</span>
+                    </div>
+                    <div class="badge-box">
+                        <span class="material-icons badge-icons">visibility</span>
+                        <span class="badge badge-icon-position">1m</span>
+                    </div>
+                </div>
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=730&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522compnents-badges-display%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520badge-icons%2522%253Epets%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon-position%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520badge-icons%2522%253Ecode%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon-position%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520badge-icons%2522%253Elightbulb%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon-position%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520badge-icons%2522%253Evisibility%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-icon-position%2522%253E1m%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+
+                <h2 class="component-heading"> Badges on Avatars</h2>
+                <div class="compnents-badges-display flex-row">
+                    <div class="avatar avatar-l">
+                        <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
+                        <span class="badge badge-avatar-text-position">4m</span>
+                    </div>
+                    <div class="avatar avatar-m ">
+                        <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
+                        <span class="badge badge-avatar-text-position">2m</span>
+                    </div>
+                    <div class="avatar avatar-s ">
+                        <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
+                        <span class="badge badge-avatar-position"></span>
+                    </div>
+                    <div class="avatar avatar-xs ">
+                        <img class="avatar-img" src="Components/Images/Avatar-Car.png" alt="Avtar Here">
+                        <span class="badge badge-avatar-position"></span>
+                    </div>
+                </div>        
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522compnents-badges-display%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522Components%252FImages%252FAvatar-Car.png%2522%2520alt%253D%2522Avtar%2520Here%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-avatar-text-position%2522%253E4m%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-m%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522Components%252FImages%252FAvatar-Car.png%2522%2520alt%253D%2522Avtar%2520Here%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-avatar-text-position%2522%253E2m%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-s%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522Components%252FImages%252FAvatar-Car.png%2522%2520alt%253D%2522Avtar%2520Here%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-avatar-position%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522Components%252FImages%252FAvatar-Car.png%2522%2520alt%253D%2522Avtar%2520Here%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-avatar-position%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </div>
+            <!-- Badge components ends here -->
+
+            <!-- Alert Components Starts Here -->
+            <div class="main-content-heading">
+                <h1>Alert</h1>
+                <p>Alerts provides feedback messages for typical user actions with alert messages.</p>
             </div>
-        </div>
-    <!-- -----Cards with text---- -->
-    <h2>Cards With Text </h2>
-    <p>Text cards are used to display information.</p>
-        <div class="card-display">
-            <div class="text-card-content flex-column">
-                <h2>CSS</h2>
-                <h3 class="card4SubHeading">Cascading Style sheet</h3>
-                <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the
-                    hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms
-                    about the language.
-                </p>
-                <div class="text-card-button">
-                    <button class="action">Continue Reading</button>
-                    <button class="action">Explore JS</button>
+            <h2 class="component-heading">Alert Examples</h2>
+            <div class="components-alert-display">
+                <div class="alert-box alert-primary">
+                    ⚠ This is a danger alert </div>
+                <div class="alert-box alert-secondary">
+                    This is a secondary alert </div> 
+                <div class="alert-box alert-success">
+                    ✔️ This is a success alert </div> 
+                <div class="alert-box alert-warning">
+                    ⚠ This is a Warning alert </div> 
+            </div>
+                
+            <div class="code-display">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522components-alert-display%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25E2%259A%25A0%2520This%2520is%2520a%2520danger%2520alert%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520alert-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520secondary%2520alert%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25E2%259C%2594%25EF%25B8%258F%2520This%2520is%2520a%2520success%2520alert%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25E2%259A%25A0%2520This%2520is%2520a%2520Warning%2520alert%2520%253C%252Fdiv%253E%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+               
+
+            <h2 class="component-heading">Alert Button with close functionality</h2>
+            <div class="components-alert-display">
+                <div class="alert-box alert-primary">
+                    ⚠ Danger alert with close functionality
+                    <button class="alert-close btn-danger-close pointer">❌</button>
+                </div>
+                <div class="alert-box alert-success">
+                    ✔️ Success alert with close functionality
+                    <button class="alert-close btn-success-close pointer">❌</button>
                 </div> 
+            </div>  
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522components-alert-display%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%25E2%259A%25A0%2520Danger%2520alert%2520with%2520close%2520functionality%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-close%2520btn-danger-close%2520pointer%2522%253E%25E2%259D%258C%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%25E2%259C%2594%25EF%25B8%258F%2520Success%2520alert%2520with%2520close%2520functionality%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-close%2520btn-success-close%2520pointer%2522%253E%25E2%259D%258C%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%2520"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
+            <!-- Alert components ends here -->
+
+            <!-- Button Components Starts Here -->
+            <div class="main-content-heading">
+                <h1>Button</h1>
+                <p>Buttons are used to perform certain actions associated with them, below are some of the types of buttons that can be used based on requirements.</p>
+            </div>
+            <div class="components-button">
+                <h2 class="component-heading">Filled Buton</h2>
+                <div class="btn-filled components-button-display flex-row">
+                    <button class="btn btn-filled-primary">
+                        Primary </button>
+                    <a href="#"><button class="btn btn-filled-link">
+                        Link</button></a>
+                    <button class="btn btn-filled-icon">
+                        <span class="material-icons">home</span>
+                    </button>
+                    <button class="btn btn-filled-success">
+                        Success</button>
+                </div>
+                <div class="code-display">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-filled%2520components-button-display%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-filled-primary%2522%253EPrimary%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-filled-link%2522%253ELink%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-filled-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ehome%253C%252Fspan%253E%250A%2509%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-filled-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                
+                <h2 class="component-heading">Outlined Button</h2>
+                <div class="btn-outlined components-button-display flex-row">
+                    <button class="btn btn-outined-primary">
+                        Primary </button>
+                    <a href="#"><button class="btn btn-outlined-link">
+                        Link</button></a>
+                    <button class="btn btn-outlined-icon">
+                        <span class="material-icons">home</span>
+                    </button>
+                    <button class="btn btn-outlined-success">
+                        Success</button>
+                </div>
+                <div class="code-display">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-outlined%2520components-button-display%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outined-primary%2522%253EPrimary%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-link%2522%253ELink%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outlined-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ehome%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outlined-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                
+                <!-- Floating action Button -->
+                <h2 class="component-heading">Floating Button</h2>
+                <div class="components-button-display flex-row">
+                    <div class="fab-container pointer">
+                        <div class="fab-button fab-icon"><span class="material-icons flex-row">add</span></div>
+                        <ul class="fab-options">
+                            <li>
+                                <span class="fab-icon-label">Facebook</span>
+                                <div class="fab-icon"><span class="fab fa-facebook flex-row"></span></div>
+                            </li>
+                            <li>
+                                <span class="fab-icon-label">Instagram</span>
+                                <div class="fab-icon"><span class="fab fa-instagram flex-row"></span></div>
+                            </li>
+                            <li>
+                                <span class="fab-icon-label">Telegram</span>
+                                <div class="fab-icon"><span class="fab fa-telegram flex-row"></span></div>
+                            </li>
+                            <li>
+                                <span class="fab-icon-label">Twitter</span>
+                                <div class="fab-icon"><span class="fab fa-twitter flex-row"></span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- floating arrow button -->
+                    <a href="#"><button class="floating-arrow-btn">
+                        <span class="material-icons">arrow_upward</span></button></a>
+                </div>
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522fab-container%2520pointer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fab-button%2520fab-icon%2522%253E%253Cspan%2520class%253D%2522material-icons%2520flex-row%2522%253Eadd%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522fab-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fab-icon-label%2522%253EFacebook%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fab-icon%2522%253E%253Cspan%2520class%253D%2522fab%2520fa-facebook%2520flex-row%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fab-icon-label%2522%253EInstagram%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fab-icon%2522%253E%253Cspan%2520class%253D%2522fab%2520fa-instagram%2520flex-row%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fab-icon-label%2522%253ETelegram%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fab-icon%2522%253E%253Cspan%2520class%253D%2522fab%2520fa-telegram%2520flex-row%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fab-icon-label%2522%253ETwitter%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fab-icon%2522%253E%253Cspan%2520class%253D%2522fab%2520fa-twitter%2520flex-row%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520floating%2520arrow%2520button%2520--%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522floating-arrow-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Earrow_upward%253C%252Fspan%253E%253C%252Fbutton%253E%253C%252Fa%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>  
+            </div>
+            <!-- Component Button Ends Here -->
+
+            <!-- Card Components starts here -->
+            <div class="main-content-heading">
+                <h1>Cards</h1>
+                <p>Card is a flexible and extensive content container, that includes option for header fotter and wide varity of content
+                    these are used to display information like buying things, creating blogs etc.</p>
+            </div>
+
+            <h2 class="component-heading">Horizontal Cards</h2>
+            <p class="component-description">They are used to display the information in Horizontal format.</p>
+            <div class="card-display flex-row">
+                <div class="horizontal-card-container flex-row">
+                    <div>
+                        <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
+                    </div>
+                    <div class="horizontal-card-content flex-column">
+                        <h2 class="card-heading">Harry Potter</h2>
+                        <h3 class="card-subheading">by J.K.Rowling</h3>
+                        <p>Harry Potter and the order of Phenox
+                            Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit.</p>
+                        <button class="horizontal-card-button ">Add To Cart</button>
+                        <button class="horizontal-card-button">Buy Now</button>    
+                    </div>
+                </div>  
+                <!-- Horizontal card with close action and badge -->
+                <div class="horizontal-card-container flex-row">
+                <span class="closeCard pointer">❌</span>
+                <div>
+                    <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
+                </div>
+                <div class="horizontal-card-content flex-column"> 
+                    <h2 class="card-heading">Harry Potter</h2>
+                    <h3 class="card-subheading">by J.K.Rowling</h3>
+                    <p>Harry Potter and the order of Phenox
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.</p>
+                    <button class="horizontal-card-button">Add To Cart</button>
+                    <button class="horizontal-card-button">Buy Now</button>    
+                </div>
+                </div>
+            </div>
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522horizontal-card-container%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FHarryPotterBook.png%2522%2520alt%253D%2522Harry%2520Potter%2520Book%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-content%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EHarry%2520Potter%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subheading%2522%253Eby%2520J.K.Rowling%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EHarry%2520Potter%2520and%2520the%2520order%2520of%2520Phenox%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522horizontal-card-button%2520%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522horizontal-card-button%2522%253EBuy%2520Now%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%253C%21--%2520Horizontal%2520card%2520with%2520close%2520action%2520and%2520badge%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-container%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522closeCard%2520pointer%2522%253E%25E2%259D%258C%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FHarryPotterBook.png%2522%2520alt%253D%2522Harry%2520Potter%2520Book%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-content%2520flex-column%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EHarry%2520Potter%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subheading%2522%253Eby%2520J.K.Rowling%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EHarry%2520Potter%2520and%2520the%2520order%2520of%2520Phenox%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522horizontal-card-button%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522horizontal-card-button%2522%253EBuy%2520Now%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>  
+            <!-- Vertical Cards--- -->
+            <h2 class="component-heading">Vertical Cards</h2>
+            <p class="component-description">These are used to vertically display information on cards.</p>
+            <div class="card-display flex-row">   
+                <div class="vertical-card-container flex-column">
+                <div class="vertical-card-image">
+                    <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+                </div>
+                <div class="vertical-card-content"> 
+                    <h2 class="card-heading">Kedarkantha</h2>
+                    <h3 class="card-subheading">Trekking In Uttarakhand</h3>
+                    <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
+                        trek offers breathtaking view of the majestic Himalayan peaks.</p>
+                    <div class="vertical-card-button">
+                        <button>Read</button>
+                        <button>BookMark</button>    
+                        <button><span class="material-icons">favorite_border</span></button>
+                        <button><span class="material-icons">share</span></button>
+                        <button><span class="material-icons">more_vert </span></button>  
+                    </div>
+                </div>
+                </div>
+
+                <div class="vertical-card-container flex-column">
+                <span class="closeCard">❌</span>  
+                    <div class="vertical-card-image">
+                        <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+                    </div>
+                    <div class="vertical-card-content"> 
+                    <h2 class="card-heading">Kedarkantha</h2>
+                    <h3 class="card-subheading">Trekking In Uttarakhand</h3>
+                    <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
+                    trek offers breathtaking view of the majestic Himalayan peaks.</p>
+                    <div class="vertical-card-button">
+                        <button>Read</button>
+                        <button>BookMark</button>    
+                        <button><span class="material-icons">favorite_border</span></button>
+                        <button><span class="material-icons">share</span></button>
+                        <button><span class="material-icons">more_vert </span></button>  
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522vertical-card-container%2520flex-column%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FKedarkanthaView.png%2522%2520alt%253D%2522Himalayan%2520Peaks%2520Image%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-content%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EKedarkantha%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subheading%2522%253ETrekking%2520In%2520Uttarakhand%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EOne%2520of%2520the%2520most%2520popular%2520winter%2520treks%2520in%2520Uttarakhand%252CCovered%2520in%2520sparkling%2520snow%2520during%2520winters%252C%2520this%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520trek%2520offers%2520breathtaking%2520view%2520of%2520the%2520majestic%2520Himalayan%2520peaks.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBookMark%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Cspan%2520class%253D%2522material-icons%2522%253Eshare%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Cspan%2520class%253D%2522material-icons%2522%253Emore_vert%2520%253C%252Fspan%253E%253C%252Fbutton%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522vertical-card-container%2520flex-column%2522%253E%250A%253Cspan%2520class%253D%2522closeCard%2522%253E%25E2%259D%258C%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FKedarkanthaView.png%2522%2520alt%253D%2522Himalayan%2520Peaks%2520Image%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-content%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EKedarkantha%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-subheading%2522%253ETrekking%2520In%2520Uttarakhand%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EOne%2520of%2520the%2520most%2520popular%2520winter%2520treks%2520in%2520Uttarakhand%252CCovered%2520in%2520sparkling%2520snow%2520during%2520winters%252C%2520this%250A%2520%2520%2520%2520%2520%2520trek%2520offers%2520breathtaking%2520view%2520of%2520the%2520majestic%2520Himalayan%2520peaks.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBookMark%253C%252Fbutton%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Cspan%2520class%253D%2522material-icons%2522%253Eshare%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Cspan%2520class%253D%2522material-icons%2522%253Emore_vert%2520%253C%252Fspan%253E%253C%252Fbutton%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>  
+            <!--Cards With overlay Texts    -->
+        
+            <h2 class="component-heading">Cards With Text Overlay</h2>
+            <p class="component-description">Used to show the overlapping text on the Image,
+                hover on the image to see the Overlapping text.</p>
+            <div class="card-display card-overlay flex-row">
+                <div class="card-overlay-container flex-row">
+                <div class="card-overlay-image">
+                    <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
+                </div>
+                <div class="card-overlay-content flex-column">
+                    <h2>Trekking In Uttrakhand</h2>
+                    <h3>Plan Your next Trek</h3>
+                    <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
+                        trek offers breathtaking view of the majestic Himalayan peaks.</p>
+                    <button class="card-button">Explore Treks</button> 
+                </div>
+                </div>
+            </div>
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-display%2520card-overlay%2520flex-row%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-overlay-container%2520flex-row%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-overlay-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FComponents%252FImages%252FKedarkanthaView.png%2522%2520alt%253D%2522Himalayan%2520Peaks%2520Image%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-overlay-content%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253ETrekking%2520In%2520Uttrakhand%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EPlan%2520Your%2520next%2520Trek%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EOne%2520of%2520the%2520most%2520popular%2520winter%2520treks%2520in%2520Uttarakhand%252CCovered%2520in%2520sparkling%2520snow%2520during%2520winters%252C%2520this%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520trek%2520offers%2520breathtaking%2520view%2520of%2520the%2520majestic%2520Himalayan%2520peaks.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-button%2522%253EExplore%2520Treks%253C%252Fbutton%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div> 
+            <!-- Cards with text---- -->
+            <h2 class="component-heading">Cards With Text</h2>
+            <p class="component-description">Text cards are used to display information.</p>
+            <div class="card-display">
+                <div class="text-card-content flex-column">
+                    <h2>CSS</h2>
+                    <h3 class="card4SubHeading">Cascading Style sheet</h3>
+                    <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the
+                        hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms
+                        about the language.
+                    </p>
+                    <div class="text-card-button">
+                        <button class="action">Continue Reading</button>
+                        <button class="action">Explore JS</button>
+                    </div> 
+                </div>
+            </div>
+            <div class="code-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=one-light&wt=sharp&l=javascript&width=829&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=122%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-display%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-card-content%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253ECSS%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card4SubHeading%2522%253ECascading%2520Style%2520sheet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ECSS%2520%28Cascading%2520Style%2520Sheets%29%2520allows%2520you%2520to%2520create%2520great-looking%2520web%2520pages%252C%2520but%2520how%2520does%2520it%2520work%2520%2509%2509%2509under%2520the%2520hood%253F%2520This%2520article%2520explains%2520what%2520CSS%2520is%252C%2520with%2520a%2520simple%2520syntax%2520example%252C%2520and%2520also%2520covers%2520%2509%2509%2509some%2520key%2520terms%2520about%2520the%2520language.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522action%2522%253EContinue%2520Reading%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522action%2522%253EExplore%2520JS%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div> 
+     <!-- Card Components Ends Here -->
         </div>
+        
+    </div>
+    
+
+
+
     
     <!-- ---Input forms--- -->
     <h2>Inputs</h2>

@@ -5,6 +5,9 @@
 @import url(cards.css);
 @import url(input.css);
 @import url(images.css);
+@import url(nav.css);
+@import url(sideBar.css);
+@import url(docs.css);
 
 
 :root{
@@ -26,6 +29,11 @@
     --color-gray-600:rgb(0, 0, 0);  
     
 }  
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .flex-row{
     display: flex;

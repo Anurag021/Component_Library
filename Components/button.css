@@ -1,7 +1,7 @@
   .components-button-display{
   padding: 1rem;
   border: 1px solid var(--color-gray-200);
-  width: 60%;
+  width: 90%;
 }
 .btn{
   width: 6rem;
@@ -62,8 +62,8 @@
 .fab-container{
   /* cursor: pointer; */
   list-style-type: none;
-  position:absolute;
-  left: 10rem;
+  position:relative;
+  left: 20rem;
 }
 .fab-icon{
   background-color: var(--color-primary);
