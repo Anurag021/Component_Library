@@ -14,7 +14,7 @@
     <!-- ----Components Avatart---- -->
     <div class="components-avatar">
         <h2>Avatars</h2>
-        <div class="components-avatar-display">    
+        <div class="components-avatar-display flex-row">    
             <div class="avatar avatar-l">
                 <img class="avatar-img" src="Components/Images/Avatar-Man.png" alt="Avtar Here">
             </div>
@@ -30,7 +30,7 @@
         </div>
 
         <h2>Avatar With Texts</h2>
-        <div class="components-avatar-display">
+        <div class="components-avatar-display flex-row">
             <div class="avatar-box">
                 <img src="Components/Images/Avatar_Book_Fiction.jpg" alt="" class="avatar-box-img">
                 <div class="avatar-text">Fiction</div>
@@ -55,7 +55,7 @@
         
     <div class="component-badges">
         <h2>Badges on Icons</h2>
-        <div class="compnents-badges-display">
+        <div class="compnents-badges-display flex-row">
             <div class="badge-box">
                 <span class="material-icons badge-icons">pets</span>
                 <span class="badge badge-icon-position">5</span>
@@ -110,10 +110,10 @@
   <div class="components-alert-display">
       <div class="alert-box alert-primary">
           ⚠ Danger alert with close functionality
-          <button class="alert-close btn-danger-close">❌</button></div>
+          <button class="alert-close btn-danger-close pointer">❌</button></div>
       <div class="alert-box alert-success">
           ✔️ Success alert with close functionality
-          <button class="alert-close btn-success-close">❌</button></div> 
+          <button class="alert-close btn-success-close pointer">❌</button></div> 
   </div>   
       
 
@@ -121,7 +121,7 @@
 
   <div class="components-button">
       <h3>Filled Buton</h3>
-      <div class="btn-filled components-button-display">
+      <div class="btn-filled components-button-display flex-row">
           <button class="btn btn-filled-primary">
               Primary </button>
           <a href="#"><button class="btn btn-filled-link">
@@ -134,7 +134,7 @@
       </div>
 
       <h3>Outlined Button</h3>
-      <div class="btn-outlined components-button-display">
+      <div class="btn-outlined components-button-display flex-row">
           <button class="btn btn-outined-primary">
               Primary </button>
           <a href="#"><button class="btn btn-outlined-link">
@@ -148,25 +148,25 @@
 
       <h3>Floating Button</h3>
       <!-- Floating action Button -->
-      <div class="components-button-display">
-          <div class="fab-container">
-              <div class="fab-button fab-icon"><span class="material-icons">add</span></div>
+      <div class="components-button-display flex-row">
+          <div class="fab-container pointer">
+              <div class="fab-button fab-icon"><span class="material-icons flex-row">add</span></div>
               <ul class="fab-options">
                   <li>
                       <span class="fab-icon-label">Facebook</span>
-                      <div class="fab-icon"><span class="fab fa-facebook"></span></div>
+                      <div class="fab-icon"><span class="fab fa-facebook flex-row"></span></div>
                   </li>
                   <li>
                       <span class="fab-icon-label">Instagram</span>
-                      <div class="fab-icon"><span class="fab fa-instagram"></span></div>
+                      <div class="fab-icon"><span class="fab fa-instagram flex-row"></span></div>
                   </li>
                   <li>
                       <span class="fab-icon-label">Telegram</span>
-                      <div class="fab-icon"><span class="fab fa-telegram"></span></div>
+                      <div class="fab-icon"><span class="fab fa-telegram flex-row"></span></div>
                   </li>
                   <li>
                       <span class="fab-icon-label">Twitter</span>
-                      <div class="fab-icon"><span class="fab fa-twitter"></span></div>
+                      <div class="fab-icon"><span class="fab fa-twitter flex-row"></span></div>
                   </li>
               </ul>
           </div>
@@ -181,28 +181,28 @@
 
   <h2>Horizontal Cards  </h2>
     <p>These are used to desplay the information in Horizontal format.</p>
-        <div class="card-display">
-          <div class="horizontal-card-container">
+        <div class="card-display flex-row">
+          <div class="horizontal-card-container flex-row">
             <div>
                 <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
             </div>
-            <div class="horizontal-card-content">
+            <div class="horizontal-card-content flex-column">
                 <h2 class="card-heading">Harry Potter</h2>
                 <h3 class="card-subheading">by J.K.Rowling</h3>
                 <p>Harry Potter and the order of Phenox
                     Lorem ipsum dolor sit amet consectetur 
                     adipisicing elit.</p>
-                <button class="horizontal-card-button">Add To Cart</button>
+                <button class="horizontal-card-button ">Add To Cart</button>
                 <button class="horizontal-card-button">Buy Now</button>    
             </div>
           </div>  
             <!-- Horizontal card with close action and badge -->
-          <div class="horizontal-card-container">
-            <span class="closeCard">❌</span>
+          <div class="horizontal-card-container flex-row">
+            <span class="closeCard pointer">❌</span>
             <div>
                 <img src="/Components/Images/HarryPotterBook.png" alt="Harry Potter Book" class="card-image">
             </div>
-            <div class="horizontal-card-content"> 
+            <div class="horizontal-card-content flex-column"> 
                 <h2 class="card-heading">Harry Potter</h2>
                 <h3 class="card-subheading">by J.K.Rowling</h3>
                 <p>Harry Potter and the order of Phenox
@@ -216,8 +216,8 @@
     <!-- Vertical Cards--- -->
     <h2>Vertical Cards </h2>
     <p>These are used to vertically display information on cards.</p>
-        <div class="card-display">   
-          <div class="vertical-card-container">
+        <div class="card-display flex-row">   
+          <div class="vertical-card-container flex-column">
             <div class="vertical-card-image">
                 <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
             </div>
@@ -236,7 +236,7 @@
             </div>
           </div>
 
-          <div class="vertical-card-container">
+          <div class="vertical-card-container flex-column">
              <span class="closeCard">❌</span>  
               <div class="vertical-card-image">
                   <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
@@ -260,12 +260,12 @@
     <h2>Cards With Text Overlay </h2>
     <p>These are used to show the overlapping text on the Image,
           hover on the image to see the Overlapping text.</p>
-        <div class="card-display card-overlay">
-            <div class="card-overlay-container">
+        <div class="card-display card-overlay flex-row">
+            <div class="card-overlay-container flex-row">
             <div class="card-overlay-image">
                <img src="/Components/Images/KedarkanthaView.png" alt="Himalayan Peaks Image" class="card-image">
             </div>
-            <div class="card-overlay-content">
+            <div class="card-overlay-content flex-column">
                <h2>Trekking In Uttrakhand</h2>
                <h3>Plan Your next Trek</h3>
                <p>One of the most popular winter treks in Uttarakhand,Covered in sparkling snow during winters, this
@@ -278,7 +278,7 @@
     <h2>Cards With Text </h2>
     <p>Text cards are used to display information.</p>
         <div class="card-display">
-            <div class="text-card-content">
+            <div class="text-card-content flex-column">
                 <h2>CSS</h2>
                 <h3 class="card4SubHeading">Cascading Style sheet</h3>
                 <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the
@@ -298,7 +298,7 @@
         normal input, validation input and text box.
     </p>
     <div class="input-container">
-        <form action="#" class="input-form">
+        <form action="#" class="input-form flex-column">
             <label for="user-name">UserName:</label>
             <input type="text" class="input-form-user-name">
             <label for="password">Password:</label>

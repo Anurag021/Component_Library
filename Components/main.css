@@ -25,5 +25,20 @@
     --color-gray-500:rgb(50, 50, 50);
     --color-gray-600:rgb(0, 0, 0);  
     
-}       
+}  
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.pointer{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
 

@@ -1,7 +1,5 @@
  /* ----- Horizontal Cards----- */
  .card-display{
-    display: flex;
-    flex-direction: row;
     padding: 1rem;
     border: 1px solid var(--color-gray-200);
     width: 60%;
@@ -11,7 +9,6 @@
   }
   .horizontal-card-container{
     margin:1rem;
-    display: flex;
     width: 20rem;
     height: 15rem;
     border: 1px solid var(--color-gray-600);
@@ -24,15 +21,12 @@
     width: 13rem;
     height: 14rem;
     padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
   }
   .horizontal-card-button{
     background-color: var(--color-primary);
     color: var(--color-gray-100);
     border-radius: 5px;
-    cursor: pointer;
   }
   .card-subheading{
     color: var(--color-gray-300);
@@ -52,7 +46,6 @@
   }
   .closeCard{
     position: absolute;
-    cursor: pointer;
     margin-left: 18rem;
     margin-top:0.5rem ;
   }
@@ -61,8 +54,6 @@
 
   .vertical-card-container{
     margin:1rem;
-    display: flex;
-    flex-direction: column;
     width: 20rem;
     height: 23rem;
     border: 1px solid var(--color-gray-600);
@@ -97,7 +88,6 @@
   .card-overlay-container{
     width: 20rem;
     height: 20rem;
-    display: flex;
     box-shadow: 0.5rem 0.5rem 0.5rem var(--color-gray-300);
   }
   .card-overlay-image{
@@ -112,8 +102,6 @@
     transition: .5s ease;
     background-color:var(--color-gray-600);
     color: var(--color-primary-light);
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     padding: 2rem;
   }
@@ -133,8 +121,6 @@
   /* Card with Text Only */
 
   .text-card-content{
-    display: flex;
-    flex-direction: column;
     width: 18rem;
     height: 15rem;
     border: 1px solid var(--color-gray-600);

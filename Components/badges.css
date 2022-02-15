@@ -1,6 +1,4 @@
 .compnents-badges-display{
-    display: flex;
-    flex-direction: row;
     padding: 1rem;
     border: 1px solid var(--color-gray-200);
     width: 60%;

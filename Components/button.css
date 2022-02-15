@@ -1,6 +1,4 @@
   .components-button-display{
-  display: flex;
-  flex-direction: row;
   padding: 1rem;
   border: 1px solid var(--color-gray-200);
   width: 60%;
@@ -11,7 +9,6 @@
   border-radius: 0.5rem;
   margin: 1rem;
   border: none;
-  cursor: pointer;
 }
 .btn-filled .btn{
   color: var(--color-gray-100);
@@ -27,7 +24,6 @@
   background-color:var(--color-gray-100);
   color:var(--color-link);
   border: 1px var(--color-link) solid;
-  cursor: pointer;
 }
 .btn-filled-icon{
   background-color: var(--color-primary);
@@ -64,7 +60,7 @@
   /* FAB Button */
   
 .fab-container{
-  cursor: pointer;
+  /* cursor: pointer; */
   list-style-type: none;
   position:absolute;
   left: 10rem;
@@ -82,7 +78,6 @@
   border-radius: 50%;
 }
 .fab-icon span{
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -112,7 +107,6 @@
 
 .floating-arrow-btn{
   align-items: center;
-  display: flex;
   justify-content: center;
   color: var(--color-gray-100);
   background-color: var(--color-primary);
