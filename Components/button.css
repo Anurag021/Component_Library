@@ -60,7 +60,6 @@
   /* FAB Button */
   
 .fab-container{
-  /* cursor: pointer; */
   list-style-type: none;
   position:absolute;
   left: 10rem;

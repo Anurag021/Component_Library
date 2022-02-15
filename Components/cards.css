@@ -80,7 +80,6 @@
     border: none;
     font-size: large;
     color: var(--color-primary);
-    cursor: pointer;
   }
 
   /* Card OverLay Image */
@@ -115,7 +114,6 @@
     background-color: var(--color-primary);
     border-radius: 0.5rem;
     color: var(--color-gray-100);
-    cursor: pointer;
   }
 
   /* Card with Text Only */
@@ -136,7 +134,6 @@
     background-color: var(--color-primary);
     border-radius: 0.5rem;
     color: var(--color-gray-100);
-    cursor: pointer;
     border: 1px solid var(--color-gray-600);
     padding: 0.2rem;
   }
