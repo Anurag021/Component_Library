@@ -1,2 +1,11 @@
-# Component_Library
-This is the component library which is going to help Designing UI easily
+# Enigma UI
+Helping Designing UI Fast and Easy.
+## About
+Enigma Ui is a component library with the sole purpose of making Designing fast and easy
+* Quick Start
+copy paste below link in your page to get started with Enigma components
+https://enigma-ui.netlify.app/components/main.css
+
+
+
+
