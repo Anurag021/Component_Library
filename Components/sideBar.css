@@ -1,0 +1,26 @@
+.side-container{
+    padding: 1rem;
+    width: 20%;
+    position: sticky;
+    top: 0;
+    overflow-y: scroll;
+    height: 40rem;
+    background-color:var(--color-primary-light);
+}
+.side-container ul{
+    list-style: none;
+    justify-content: space-evenly;
+}
+.side-container li{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.side-container a{
+    color:var(--color-gray-600);
+    text-decoration: none;
+}
+.side-container a:hover{
+    color: var(--color-gray-300);
+}
