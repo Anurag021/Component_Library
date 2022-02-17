@@ -2,7 +2,7 @@
     padding: 1rem;
     width: 20%;
     position: sticky;
-    top: 0rem;
+    top: 0;
     overflow-y: scroll;
     height: 40rem;
     background-color:var(--color-primary-light);
