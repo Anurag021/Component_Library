@@ -8,6 +8,9 @@
 @import url(nav.css);
 @import url(sideBar.css);
 @import url(docs.css);
+@import url(lists.css);
+@import url(grid.css);
+@import url(toast.css);
 
 
 :root{

@@ -1,0 +1,26 @@
+.list-style-number{
+    list-style:decimal;
+}
+.list-style-letter{
+    list-style:lower-alpha;
+}
+.list-style-letter-reverse{
+    list-style: lower-alpha;
+}
+.list-style-letter-roman{
+    list-style:lower-roman;
+}
+.list-style-letter-disc{
+    list-style-type: disc;
+}
+.list-style-letter-square{
+    list-style: square;
+}
+.list-stacked{
+    list-style: none;
+    width: 10rem;
+}
+.list-stacked-item{
+    border: 1px solid var(--color-gray-200);
+    padding: 1rem;
+}
