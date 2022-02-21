@@ -1,0 +1,24 @@
+.toast{
+    width: 30rem;
+    height: 1.5 rem;
+    color: var(--color-gray-100);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.toast-success{
+    background-color: var(--color-success);
+}
+.toast-retry{
+    background-color: var(--color-error);
+}
+.toast-retry-btn{
+    margin-left: 10rem;
+    background-color: var(--color-gray-200);
+    border: none;
+    border-radius: 5px;
+}
+.close{
+    float: right;
+    cursor: pointer;
+}

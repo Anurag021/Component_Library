@@ -2,11 +2,11 @@
 const btnDangerClose = document.querySelector(".btn-danger-close")
 const btnSuccessClose = document.querySelector(".btn-success-close")
 
-btnDangerClose.addEventListener('click', function() {
+btnDangerClose.addEventListener('click', () =>{
     this.parentElement.style.display = 'none';
 })
 
-btnSuccessClose.addEventListener('click', function() {
+btnSuccessClose.addEventListener('click',()=> {
 
     this.parentElement.style.display = 'none';
 })
@@ -32,7 +32,7 @@ var closeCard = document.querySelectorAll(".closeCard")
 
 for (let i = 0; i < closeCard.length; i++) {
     
-    closeCard[i].addEventListener('click', function() {
+    closeCard[i].addEventListener('click', () => {
         this.parentElement.style.display = 'none';
     })
 }
@@ -43,7 +43,7 @@ var passwordText = document.querySelector(".input-password-text")
 
 password.addEventListener('change',passwordChecker)
 
-function passwordChecker (){
+const passwordChecker = ()=> {
     if(password.value.length > 8){
         password.style.border = "2px var(--color-success) solid";
         passwordText.style.color= "var(--color-success)";
@@ -55,3 +55,12 @@ function passwordChecker (){
         password.style.border = "2px var(--color-error) solid";        
     }
 }
+
+// Close functionality
+const closeBtn = document.querySelectorAll(".close")
+    
+    for (let i = 0; i < closeBtn.length; i++) {
+        closeBtn[i].addEventListener('click', () => {
+            this.parentElement.style.display = 'none';
+        })
+    }
