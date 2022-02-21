@@ -8,16 +8,15 @@
     margin: 0.5rem;
     color: var(--color-gray-100);
 }
-
 .grid-row-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2,1fr);
 }
 .grid-column-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2,1fr);
 }
 .grid-row-3 {
-    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, 1fr);
 }
 .grid-column-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 1fr);
 }
