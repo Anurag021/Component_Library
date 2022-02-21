@@ -19,5 +19,8 @@ https://enigma-ui.netlify.app/components/main.css
  - Grids
 
 
-
+## Tech Stack used here
+- HTML
+- CSS
+- JavaScript
 
